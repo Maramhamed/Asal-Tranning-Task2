@@ -1,0 +1,59 @@
+.header {
+  margin: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.first-content {
+  display: flex; /* Use flexbox */
+  justify-content: center;
+  flex-direction: row;
+}
+
+.first-p,
+.second-p,
+.third-p {
+  flex: 1; /* Distribute available space equally among the elements */
+  word-break: normal;
+  word-spacing: normal;
+  direction: ltr;
+  margin: 55px;
+}
+
+.second-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fourth-p {
+  word-break: normal;
+  word-spacing: normal;
+  direction: ltr;
+  margin: 59px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.third-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fifth-p,
+.sixth-p {
+  flex: 1; /* Distribute available space equally among the elements */
+  word-break: normal;
+  word-spacing: normal;
+  direction: ltr;
+  margin: 55px;
+}
+
+.footer {
+  background-color: rgb(212, 212, 212);
+  text-align: center;
+  color: red;
+  max-width: 100%;
+  padding: 5px;
+}

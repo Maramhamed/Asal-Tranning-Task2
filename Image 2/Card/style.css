@@ -1,0 +1,59 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: rgba(252, 252, 252, 0.89);
+  padding: 2vw;
+  max-width: 50%;
+  margin: 5vw auto;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2vw; /* Use viewport width units for padding */
+  font-size: 2.5vw; /* Use viewport width units for font size */
+  text-align: center;
+}
+
+.country {
+  padding: 1vw; /* Use viewport width units for padding */
+  font-size: 1.5vw; /* Use viewport width units for font size */
+  text-align: center;
+}
+
+.country > span {
+  padding: 1vw; /* Use viewport width units for padding */
+  color: #c3acd0;
+  font-weight: bold;
+  font-size: 2vw; /* Use viewport width units for font size */
+}
+
+.icon-pic {
+  padding: 2vw; /* Use viewport width units for padding */
+  font-size: 2vw; /* Use viewport width units for font size */
+  text-align: center;
+}
+
+.icon-pic svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 90px;
+  background-color: #f7efe5;
+}
+.card-footer > div {
+  text-align: center;
+  padding: -50px 90px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.item1 {
+  text-align: center;
+  grid-column: 1 span 1;
+  font-size: 15px;
+}
